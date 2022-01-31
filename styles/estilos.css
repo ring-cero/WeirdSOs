@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    margin-top: 8rem;
+}
+#temple1{
+    width: 20%;
+    float: right;
+    margin-left: 0.5rem;
+}
+section{
+    margin: 0rem 1rem;
+}
+#terry1{
+    width: 20%;
+    float: right;
+    margin-left: 0.5rem;
+
+}
+#temple2{
+    width: 40%;
+    float: right;
+    margin-left: 0.5rem;
+}
+#temple3{
+    width: 30%;
+    float: right;
+    margin-left: 0.5rem;
+}
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    max-width: 220px;
+    float: right;
+}
+#terry2 {
+    max-width: 220px;
+}
+#holy{
+    height: 4rem;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
