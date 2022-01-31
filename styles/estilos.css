@@ -5,6 +5,9 @@ h2{
     text-align: center;
     margin-top: 8rem;
 }
+h3{
+    text-align: center;
+}
 #temple1{
     width: 20%;
     float: right;
@@ -12,12 +15,6 @@ h2{
 }
 section{
     margin: 0rem 1rem;
-}
-#terry1{
-    width: 20%;
-    float: right;
-    margin-left: 0.5rem;
-
 }
 #temple2{
     width: 40%;
@@ -39,7 +36,7 @@ figure{
     float: right;
 }
 #terry2 {
-    max-width: 220px;
+    max-width: 200px;
 }
 #holy{
     height: 4rem;
