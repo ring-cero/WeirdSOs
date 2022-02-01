@@ -77,6 +77,7 @@ nav{
     padding: 0.5rem;
     align-items: center;
     background: linear-gradient(#B1E6F0, #edeeee);
+    flex-wrap: wrap;
 }
 #collapse{
     font-family: 'Loud';
