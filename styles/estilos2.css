@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-image: url('../img/pattern1.jpeg');
+    background-image: url('../img/pattern3.jpeg');
     background-position: center;
     background-size: cover;
 }
@@ -22,9 +22,10 @@ nav{
     width: 100%;
     padding: 0.5rem;
     align-items: center;
-    background-image: url('../img/background2.jpeg');
-    background-position: center;
-    background-size: 30%;
+    background-image: url('../img/background1.jpeg');
+    background-position: 50% 40%;
+    filter: grayscale(80%);
+    background-size: cover;
 }
 #collapse{
     font-family: 'Loud';
