@@ -24,7 +24,7 @@ nav{
     align-items: center;
     background-image: url('../img/background1.jpeg');
     background-position: 50% 40%;
-    filter: grayscale(80%);
+    filter: grayscale(85%);
     background-size: cover;
 }
 #collapse{
