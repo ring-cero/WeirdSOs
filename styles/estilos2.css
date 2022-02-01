@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    background-image: url('../img/pattern1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Loud';
+    src: url(../fonts/loud_and_clear_2/LOUD\ AND\ CLEAR\ PERSONAL\ USE.ttf);
+}
+@font-face {
+    font-family: 'Old London';
+    src: url('../fonts/old_london/OldLondon.ttf');
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    background-image: url('../img/background2.jpeg');
+    background-position: center;
+    background-size: 30%;
+}
+#collapse{
+    font-family: 'Loud';
+    font-size: 3.5rem;
+}
+#temple_enl{
+    font-family: 'Old London';
+    font-size: 3.2rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#holy{
+    height: 4rem;
+}
+#nuclear{
+    height: 4rem;
+}

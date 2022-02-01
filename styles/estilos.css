@@ -1,5 +1,10 @@
 body{
     margin: 0px;
+    font-family: 'Fraunces', serif;
+    background-image: url('../img/pattern2.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
 }
 @font-face {
     font-family: 'Loud';
@@ -12,6 +17,8 @@ body{
 h2{
     text-align: center;
     margin-top: 8rem;
+    font-family: 'Old London';
+    font-size: 3rem;
 }
 h3{
     text-align: center;
@@ -19,6 +26,9 @@ h3{
 section{
     width: 50%;
     margin: auto;
+    background-color: #00070ecc;
+    padding: 1rem;
+
 }
 #temple1{
     width: 30%;
@@ -65,9 +75,7 @@ nav{
     width: 100%;
     padding: 0.5rem;
     align-items: center;
-    background-image: url('../img/background2.jpeg');
-    background-position: center;
-    background-size: 30%;
+    background: linear-gradient(#B1E6F0, #edeeee);
 }
 #collapse{
     font-family: 'Loud';
@@ -78,6 +86,6 @@ nav{
     font-size: 3.2rem;
 }
 nav a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
