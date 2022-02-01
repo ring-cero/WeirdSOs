@@ -1,6 +1,14 @@
 body{
     margin: 0px;
 }
+@font-face {
+    font-family: 'Loud';
+    src: url(../fonts/loud_and_clear_2/LOUD\ AND\ CLEAR\ PERSONAL\ USE.ttf);
+}
+@font-face {
+    font-family: 'Old London';
+    src: url('../fonts/old_london/OldLondon.ttf');
+}
 h2{
     text-align: center;
     margin-top: 8rem;
@@ -8,21 +16,17 @@ h2{
 h3{
     text-align: center;
 }
+section{
+    width: 50%;
+    margin: auto;
+}
 #temple1{
-    width: 20%;
+    width: 30%;
     float: right;
     margin-left: 0.5rem;
-}
-section{
-    margin: 0rem 1rem;
 }
 #temple2{
-    width: 40%;
-    float: right;
-    margin-left: 0.5rem;
-}
-#temple3{
-    width: 30%;
+    width: 50%;
     float: right;
     margin-left: 0.5rem;
 }
@@ -39,6 +43,9 @@ figure{
     max-width: 200px;
 }
 #holy{
+    height: 4rem;
+}
+#nuclear{
     height: 4rem;
 }
 figcaption {
@@ -58,6 +65,17 @@ nav{
     width: 100%;
     padding: 0.5rem;
     align-items: center;
+    background-image: url('../img/background2.jpeg');
+    background-position: center;
+    background-size: 30%;
+}
+#collapse{
+    font-family: 'Loud';
+    font-size: 3.5rem;
+}
+#temple_enl{
+    font-family: 'Old London';
+    font-size: 3.2rem;
 }
 nav a{
     color: white;
