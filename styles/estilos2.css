@@ -87,9 +87,28 @@ figcaption {
 }
 h3{
     text-align: center;
+    text-decoration: underline;
 }
 #nuke{
     width: 20rem;
     float: right;
     margin-left: 0.4rem;
+}
+footer ul{
+    list-style: none;
+    font-size: 0.9em;
+}
+footer{
+    background-color: #33312DCC;
+    display: flex;
+    flex-flow: column;
+    color: white;
+}
+footer h3{
+    margin: 0px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: left;
+    font-size: 0.9em;
+    text-decoration: none;
 }
