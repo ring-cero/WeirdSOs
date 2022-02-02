@@ -81,13 +81,13 @@ figcaption {
     text-align: center;
 }
 #emulador{
-    max-width: 280px;
+    width: 250px;
 }
 h3{
     text-align: center;
 }
 #nuke{
-    width: 40%;
+    width: 20rem;
     float: right;
     margin-left: 0.4rem;
 }
