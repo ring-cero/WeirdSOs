@@ -52,7 +52,9 @@ h2{
     margin-top: 8rem;
     font-family: 'Loud';
     font-size: 5rem;
-    color: #3D4647;
+    background: -webkit-linear-gradient(#1C1B19, #D99441, #d1d0ce, #1C1B19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section{
     width: 60%;
