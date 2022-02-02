@@ -29,6 +29,9 @@ nav{
     background-size: cover;
     flex-wrap: wrap;
 }
+nav a:hover{
+    text-decoration: underline;
+}
 #collapse{
     font-family: 'Loud';
     font-size: 3.5rem;
