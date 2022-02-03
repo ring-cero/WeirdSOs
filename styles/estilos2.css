@@ -115,3 +115,6 @@ footer h3{
     font-size: 0.9em;
     text-decoration: none;
 }
+q{
+    font-style: italic;
+}
