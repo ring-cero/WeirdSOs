@@ -47,9 +47,11 @@ figure{
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
+    background-color: #989c9e;
     padding: 5px;
     margin: auto;
     max-width: 220px;
+    margin-left: 0.5rem;
     float: right;
 }
 #terry2 {
@@ -62,12 +64,19 @@ figure{
     height: 4rem;
 }
 figcaption {
-    background-color: #222;
+    background-color: rgb(34, 34, 34);
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
 }
+#terry1{
+    display: flex;
+    width: 50%;
+    flex-flow: column;
+    margin: auto;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
