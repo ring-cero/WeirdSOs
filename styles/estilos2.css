@@ -118,3 +118,12 @@ footer h3{
 q{
     font-style: italic;
 }
+#virus{
+    float: right;
+    max-width: 230px;
+    max-height: 200px;
+}
+#eeuu{
+    float: right;
+    max-width: 350px;
+}
